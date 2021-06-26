@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.toshiba.yaleastemari">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AmharicLetterImageActivity"
+            android:screenOrientation="landscape">
+
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".AmharicLettersActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".EnglishLettersActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".CountingNumbersActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Questions.QuestionActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".TeretTeretActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".EnqoqlishActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ImagesActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Games.ChewataActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AmaProgActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Games.TicTacToeGame"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Questions.LetterQuestion"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ContactPop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ContactPopUpActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".ShowCongratulation"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".ShowResult"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".AboutActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".Games.DiceGame"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Login"></activity>
+    </application>
+
+</manifest>

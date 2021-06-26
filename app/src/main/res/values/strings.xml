@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">ያለ አስተማሪ</string>
+    <string name="game1_status_preference">com.example.toshiba.yaleastemari_game1_status</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_discription">This application doesn\'t require \nany licence and agreement to use.
+                                     it is developed for kid to teach theme\nthe amharic alphabets and numbers
+                                     with attractive animations and sound.\n
+                                     (ይህን መተግበሪያ ለመጠቀ ምንም አይነት የፈቃድ
+                                     ስምምነት አይጠይቅም: : ይህ መተግበሪያ ለህፃናት የአማርኛ
+                                     ፊደላትን በድምጽና በእነማ በማዝናናት የሚያስተምር ነው: :)
+    </string>
+    <string name="developer_info">are grade 11 student at Bahirdar STEM incubation
+                                  center.We developed this application in 2011 E.C
+                                  for the purpose of ICT group assignment.We took
+                                  around two month to develop this app.</string>
+    <string name="developers_name">
+        We:\n
+        -> KinfeMechael Melaku\n
+        -> Mohammed Ebrahim\n
+        -> Wubeshet Anegarie\n
+        -> Yonas Tadlo\n
+    </string>
+    <string-array name="amharic_root_letters">
+
+        <item>ሀ</item>
+        <item>ለ</item>
+        <item>ሐ</item>
+        <item>መ</item>
+        <item>ሠ</item>
+        <item>ረ</item>
+        <item>ሰ</item>
+        <item>ሸ</item>
+        <item>ቀ</item>
+        <item>በ</item>
+        <item>ተ</item>
+        <item>ች</item>
+        <item>ኅ</item>
+        <item>ነ</item>
+        <item>ኘ</item>
+        <item>አ</item>
+        <item>ከ</item>
+        <item>ኸ</item>
+        <item>ወ</item>
+        <item>ዐ</item>
+        <item>ዘ</item>
+        <item>ዠ</item>
+        <item>የ</item>
+        <item>ደ</item>
+        <item>ጀ</item>
+        <item>ገ</item>
+        <item>ጠ</item>
+        <item>ጨ</item>
+        <item>ጰ</item>
+        <item>ጸ</item>
+        <item>ፀ</item>
+        <item>ፈ</item>
+        <item>ፐ</item>
+
+    </string-array>
+</resources>

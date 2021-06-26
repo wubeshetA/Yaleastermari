@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context="com.example.toshiba.string_arrayexample.MainActivity"
+    tools:ignore="GradleDependency">
+
+
+    <TabHost
+        android:id="@+id/tabHost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:paddingTop="-20dp"
+                />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:id="@+id/media_btn_container"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:layout_marginBottom="8dp"
+                            app:layout_constraintVertical_bias="0.050000012"
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="2dp"
+                            app:layout_constraintLeft_toLeftOf="parent">
+
+                            <Button
+                                android:id="@+id/btn_back_inAmharic"
+                                android:layout_width="45dp"
+                                android:layout_height="45dp"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/btn_back"/>
+
+                            <Button
+                                android:id="@+id/btn_sound_inAmharic"
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/btn_sound_normal" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+
+                            android:background="@drawable/hahu_old_paper_bg"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginStart="8dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toRightOf="@+id/media_btn_container"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="1.0">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:id="@+id/diqalaHoheyaFragment"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ScrollView
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_marginBottom="30dp"
+                                    android:layout_marginEnd="40dp"
+                                    android:layout_marginLeft="0dp"
+                                    android:layout_marginRight="0dp"
+                                    android:layout_marginStart="16dp"
+                                    android:layout_marginTop="25dp"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintHorizontal_bias="0.48"
+                                    app:layout_constraintLeft_toLeftOf="parent"
+                                    app:layout_constraintRight_toRightOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    app:layout_constraintVertical_bias="1.0">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_gravity="center_horizontal"
+                                        android:gravity="center"
+                                        android:orientation="horizontal">
+
+                                        <LinearLayout
+                                            android:id="@+id/first_letter_container"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginLeft="5dp"
+                                            android:layout_marginRight="3dp"
+                                            android:orientation="vertical">
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:id="@+id/second_letter_container"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginRight="3dp"
+                                            android:orientation="vertical">
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:id="@+id/third_letter_container"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginRight="3dp"
+                                            android:orientation="vertical">
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:id="@+id/fourth_letter_container"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginRight="3dp"
+                                            android:orientation="vertical">
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:id="@+id/fifth_letter_container"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginRight="3dp"
+                                            android:orientation="vertical">
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:id="@+id/sixth_letter_container"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginRight="3dp"
+                                            android:orientation="vertical">
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:id="@+id/seventh_letter_container"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginRight="3dp"
+                                            android:orientation="vertical">
+
+                                        </LinearLayout>
+
+
+                                    </LinearLayout>
+
+
+                                </ScrollView>
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        </LinearLayout>
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginBottom="8dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        app:layout_constraintVertical_bias="0.050000012">
+
+                        <Button
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/btn_back" />
+
+                        <Button
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/btn_sound_normal" />
+
+
+                    </LinearLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@drawable/hahu_old_paper_bg"
+                        android:orientation="horizontal">
+
+
+                        <TableLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_marginTop="0dp"
+                            android:gravity="center"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.483">
+
+                            <TableRow
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:paddingBottom="20sp"
+                                android:paddingTop="20dp">
+
+                                <TextView
+                                    android:textColor="#000000"
+                                    android:id="@+id/lua"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="50dp"
+                                    android:paddingRight="80dp"
+                                    android:paddingTop="10dp"
+                                    android:text="ሏ"
+                                    android:textSize="30sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:textColor="#000000"
+                                    android:id="@+id/mua"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingRight="80dp"
+                                    android:paddingTop="10dp"
+                                    android:text="ሟ"
+                                    android:textSize="30sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:textColor="#000000"
+                                    android:id="@+id/rua"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="-15dp"
+                                    android:paddingRight="100dp"
+                                    android:paddingTop="10dp"
+                                    android:text="ሯ"
+                                    android:textSize="30sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:textColor="#000000"
+                                    android:id="@+id/sua"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="50dp"
+                                    android:paddingRight="10dp"
+                                    android:paddingTop="10dp"
+                                    android:text="ሷ"
+                                    android:textSize="30sp"
+                                    android:textStyle="bold" />
+
+                            </TableRow>
+
+                            <TableRow
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="-10dp"
+                                android:gravity="center"
+                                android:paddingBottom="30sp">
+
+                                <TextView
+                                    android:textColor="#000000"
+                                    android:id="@+id/xua"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="50dp"
+                                    android:paddingRight="80dp"
+                                    android:text="ሿ"
+                                    android:textSize="30sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+
+                                    android:textColor="#000000"
+                                    android:id="@+id/bua"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingRight="80dp"
+                                    android:text="ቧ"
+                                    android:textSize="30sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:textColor="#000000"
+                                    android:id="@+id/tua"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="-15dp"
+                                    android:paddingRight="80dp"
+                                    android:text="ቷ"
+                                    android:textSize="30sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:textColor="#000000"
+                                    android:id="@+id/cua"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="50dp"
+                                    android:paddingRight="10dp"
+                                    android:text="ቿ"
+                                    android:textSize="30sp"
+                                    android:textStyle="bold" />
+
+                            </TableRow>
+
+                            <TableRow
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="-10dp"
+                                android:gravity="center"
+                                android:paddingBottom="35sp">
+
+                                <TextView
+                                    android:textColor="#000000"
+                                    android:id="@+id/nua"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="50dp"
+                                    android:paddingRight="80dp"
+                                    android:text="ኗ"
+                                    android:textSize="30sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:textColor="#000000"
+                                    android:id="@+id/nyua"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingRight="80dp"
+                                    android:text="ኟ"
+                                    android:textSize="30sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:textColor="#000000"
+                                    android:id="@+id/zua"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="-15dp"
+                                    android:paddingRight="80dp"
+                                    android:text="ዟ"
+                                    android:textSize="30sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:textColor="#000000"
+                                    android:id="@+id/zyua"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="50dp"
+                                    android:paddingRight="10dp"
+                                    android:text="ዧ"
+                                    android:textSize="30sp"
+                                    android:textStyle="bold" />
+
+                            </TableRow>
+
+                            <TableRow
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="-10dp"
+                                android:gravity="center"
+                                android:paddingBottom="0dp">
+
+                                <TextView
+                                    android:textColor="#000000"
+                                    android:id="@+id/dua"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginLeft="50dp"
+                                    android:paddingRight="80dp"
+                                    android:text="ዷ"
+                                    android:textSize="30sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:textColor="#000000"
+                                    android:id="@+id/ttua"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:paddingRight="80dp"
+                                    android:text="ጧ"
+                                    android:textSize="30sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:textColor="#000000"
+                                    android:id="@+id/tsua"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginRight="-15dp"
+                                    android:paddingRight="80dp"
+                                    android:text="ጿ"
+                                    android:textSize="30sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:textColor="#000000"
+                                    android:id="@+id/fua"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginRight="50dp"
+                                    android:paddingRight="10dp"
+                                    android:text="ፏ"
+                                    android:textSize="30sp"
+                                    android:textStyle="bold" />
+
+                            </TableRow>
+
+
+                        </TableLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>
